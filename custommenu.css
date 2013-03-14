@@ -2,27 +2,52 @@
     position:relative;
     font-size: 14px;
     margin: 0 auto;
-    padding: 0 16px;
-    width: 918px;
+    width: 767px;
     z-index: 999;
+    right: 80px;
+    top:5px;
 }
 div.menu {
     float: left;
 }
 div.menu.act {
-    background-color:#ADD8E6;
+    background-color: none;
+}
+div.menu.act a {
+    color:#3E4EAB;
+    font-weight:bold;
+    border-bottom: 1px solid #cccccc;
 }
 div.menu.active {
-    background-color:#FFC0CB;
+    background-color: #3E4EAB;
 }
+
+div.menu.active a{
+    color:white;
+}
+
 div.wp-custom-menu-popup {
     position:absolute;
     z-index:3000;
-    border:5px solid #FFC0CB;
+    border:1px solid #3E4EAB;
+    border-top-right-radius:1em;
+    border-bottom-left-radius:1em;
+    border-bottom-right-radius:1em;
+    border-bottom-left-radius:1em;
     display: none;
     background-color:#fff;
     text-align:left;
 }
+
+div.wp-custom-menu-popup a.itemMenuName.level1 span{
+    font-family:'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight:bold;
+}
+
+div.wp-custom-menu-popup a.itemMenuName.level1 span:hover{
+    color:#0A1F70;
+}
+
 div.menu, div.wp-custom-menu-popup {
     padding: 5px 12px 6px 8px;
 }
@@ -42,8 +67,19 @@ div.column {
     padding:5px;
 }
 div.itemSubMenu {
-    margin-left:20px;
+    margin-left:0px;
 }
+div.itemSubMenu a {
+    color:gray;
+    font-size:13px;
+    font-family:'Droid Sans', sans-serif;
+}
+
+div.itemSubMenu a:hover {
+    color:black;
+}
+
+
 .clearBoth {
     clear:both;
 }
