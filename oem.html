@@ -1,0 +1,30 @@
+<style>
+	#rightColumn {
+	    display: none !important;
+	}
+	#ecomm_shopContent {
+	    width: 98% !important;
+	}	
+</style>
+
+<script>
+
+
+	jQuery(document).ready(function($){
+
+		// Remove sidebar
+		function createIframe(url){
+			$('.ecomm_asset').append('<iframe src="'+url+'" height="500" width="100%"></iframe>');
+		}
+		createIframe('http://store.arcticcat.com/Parts');
+		createIframe('http://www.yamahamotorsports.com/partviewer/?ls=sport');
+		createIframe('https://www.kawasaki.com');
+		createIframe('http://parts.polarisind.com/Browse/Browse.asp');
+		createIframe('http://epc.brp.com/Index.aspx?lang=E&s1=067f828d-aa21-417b-abfc-b08bb9cd0ec8');
+
+	});
+
+// Create the word
+
+
+</script>
