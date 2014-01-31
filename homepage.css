@@ -21,11 +21,12 @@ h3.PD-title {
     text-align:center;
     font-size:1.2em;
     background:#ddd;
-    padding: 0.3em 0em;
+    padding: 0.3em 0;
 
+    margin-top: 0;
 }
 
-.PD-featured h4 a, .PD-featured strong a {
+.PD-featured h4 a, .PD-featured strong a, .PD-see-more a {
     text-decoration:none;
 }
 
@@ -52,4 +53,14 @@ h3.PD-title {
     font-size: 16px;
     font-weight: 200;
     text-decoration: none;
+}
+
+.PD-see-more {
+    text-align: right;
+    margin-right: 8px;
+    font-size: 1em;
+}
+
+.mainWidgetControl.statichtml {
+    margin: 0 -15px -35px -15px !important;
 }
