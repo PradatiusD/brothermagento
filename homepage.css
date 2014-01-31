@@ -1,0 +1,40 @@
+.PD-featured {
+    max-width:960px;
+    padding:5px;
+}
+
+.PD-featured article {
+    width:150px;
+    display:inline-block;
+    margin:0;
+    padding: 12px 0;
+    
+}
+
+.PD-featured h4 {
+    text-align:center;
+    font-size:1.2em;
+    background:#ddd;
+    padding: 0.3em 0em;
+
+}
+
+.PD-featured h4 a {
+    text-decoration:none;
+}
+
+.PD-featured strong {
+    text-align: center;
+    display: block;
+    color: #B60202;
+    position: relative;
+    bottom: 15px;
+}
+
+.PD-featured img {
+    text-align:center;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
