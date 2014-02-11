@@ -1,0 +1,26 @@
+{
+  "name": "hsparts",
+  "version": "0.1.0",
+  "description": "mods",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-ftp-deploy": "~0.1.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PradatiusD/hsparts"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PradatiusD/hsparts/issues"
+  },
+  "homepage": "https://github.com/PradatiusD/hsparts"
+}
